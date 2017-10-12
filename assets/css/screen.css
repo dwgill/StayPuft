@@ -440,9 +440,32 @@ button {
     text-shadow: none;
     border-radius: 0.3rem;
     border: rgba(0,0,0,0.05) 0.1em solid;
-    background: #5ba4e5;
+    /* background: #5ba4e5;  Daniel Edit */
 }
 
+/* Daniel Edits below */
+input[type='checkbox'] {
+    border: #bbc7cc 2px solid;
+    height: 17px;
+    width: 17px;
+    margin: 0px;
+}
+
+input[type='checkbox']:checked {
+    background-color: #BBC4C9;
+}
+
+select {
+    margin: 0px;
+    padding: 1px;
+    margin: 2px;
+    width: auto;
+    height: auto;
+}
+
+button {
+    background: #22313F;
+}
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
